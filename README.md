@@ -24,13 +24,12 @@ var weighted = require('pick-weight');
 // - weighted(arr, weights);
 ```
 
-The following code:
+The following code will generate `'a'` 100 times more often than `'b'` but still choose one or the other randomly.
   
 ```js
 weighted(['a', 'b'], [100, 1]);
 // => 'a'
 ```
-Will generate `'a'` 100 times more often than `'b'` but still choose one or the other randomly.
 
 The weights are all relative, so if you have more than just two it will ensure that all items are generated relative to all of the weights.
 
