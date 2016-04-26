@@ -38,8 +38,6 @@ weighted(['a', 'b', 'c', 'd'], [1, 2, 3, 4]);
 // => 'c'
 ```
   
-## Related
-  
 Will generate a letter from the array but will pick `'b'` twice as often as it picks `'a'` and will pick `'c'` three times as often as it picks `'a'` and will pick `'d'` four times as often as it will pick `'a'` and will pick `'d'` two times as often as it will pick `'b'`.  
 
 The weights can be whole numbers as shown above or fractions.
